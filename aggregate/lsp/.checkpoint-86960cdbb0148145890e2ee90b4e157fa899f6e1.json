@@ -3,11 +3,13 @@
   "completed_files": [
     "agent/anthropic_adapter.py",
     "agent/context_references.py",
+    "agent/display.py",
     "agent/model_metadata.py",
     "agent/redact.py",
     "agent/skill_utils.py",
     "cli.py",
     "environments/web_research_env.py",
+    "gateway/platforms/api_server.py",
     "gateway/platforms/email.py",
     "gateway/platforms/feishu.py",
     "gateway/platforms/slack.py",
@@ -18,6 +20,9 @@
     "hermes_cli/memory_setup.py",
     "hermes_cli/setup.py",
     "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+    "optional-skills/productivity/telephony/scripts/telephony.py",
+    "plugins/memory/honcho/cli.py",
+    "plugins/memory/retaindb/__init__.py",
     "run_agent.py",
     "skills/leisure/find-nearby/scripts/find_nearby.py",
     "skills/research/polymarket/scripts/polymarket.py",
@@ -30,6 +35,7 @@
     "tests/cron/test_codex_execution_paths.py",
     "tests/gateway/test_api_server.py",
     "tests/gateway/test_api_server_jobs.py",
+    "tests/gateway/test_discord_document_handling.py",
     "tests/gateway/test_discord_slash_commands.py",
     "tests/gateway/test_feishu.py",
     "tests/gateway/test_feishu_approval_buttons.py",
@@ -40,6 +46,7 @@
     "tests/gateway/test_reasoning_command.py",
     "tests/gateway/test_voice_command.py",
     "tests/gateway/test_webhook_integration.py",
+    "tests/hermes_cli/test_auth_commands.py",
     "tests/hermes_cli/test_plugin_cli_registration.py",
     "tests/hermes_cli/test_tools_disable_enable.py",
     "tests/run_agent/test_primary_runtime_restore.py",
@@ -47,12 +54,14 @@
     "tests/test_mcp_serve.py",
     "tests/tools/test_local_persistent.py",
     "tests/tools/test_mcp_oauth.py",
+    "tests/tools/test_mcp_tool.py",
     "tests/tools/test_modal_sandbox_fixes.py",
     "tests/tools/test_patch_parser.py",
     "tests/tools/test_send_message_missing_platforms.py",
     "tests/tools/test_website_policy.py",
     "tools/cronjob_tools.py",
-    "tools/skills_hub.py"
+    "tools/skills_hub.py",
+    "tools/vision_tools.py"
   ],
   "completed_types": [],
   "stats": {
@@ -60,13 +69,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/86960cdbb0148145890e2ee90b4e157fa899f6e1.nq.gz",
     "call_sites": 102473,
     "import_statements": 8598,
-    "call_targets_resolved": 9766,
+    "call_targets_resolved": 11181,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 16639,
+    "errors": 18926,
     "extends_clauses": 140,
     "implements_clauses": 0,
     "import_modules_denormalized": 13432,
@@ -74,5 +83,5 @@
     "extends_class_denormalized": 138,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14415
+  "elapsed_seconds": 14416
 }
