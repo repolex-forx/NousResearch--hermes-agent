@@ -1,0 +1,40 @@
+{
+  "commit_sha": "abf1e98f6253f6984479fe03d1098173a9b065a7",
+  "completed_files": [
+    "agent/auxiliary_client.py",
+    "agent/display.py",
+    "environments/agent_loop.py",
+    "gateway/platforms/slack.py",
+    "skills/research/polymarket/scripts/polymarket.py",
+    "tests/e2e/test_telegram_commands.py",
+    "tests/gateway/test_background_process_notifications.py",
+    "tests/gateway/test_media_download_retry.py",
+    "tests/gateway/test_session.py",
+    "tests/hermes_cli/test_nous_subscription.py",
+    "tests/test_evidence_store.py",
+    "tests/test_hermes_state.py",
+    "tools/approval.py",
+    "tools/browser_providers/browser_use.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/NousResearch/hermes-agent/lsp/abf1e98f6253f6984479fe03d1098173a9b065a7",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/abf1e98f6253f6984479fe03d1098173a9b065a7.nq.gz",
+    "call_sites": 91351,
+    "import_statements": 7659,
+    "call_targets_resolved": 1010,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 2518,
+    "extends_clauses": 130,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 11851,
+    "import_symbols_denormalized": 10167,
+    "extends_class_denormalized": 128,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14455
+}
