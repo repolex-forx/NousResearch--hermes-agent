@@ -3,6 +3,7 @@
   "completed_files": [
     "agent/auxiliary_client.py",
     "agent/display.py",
+    "cli.py",
     "environments/agent_loop.py",
     "gateway/platforms/matrix.py",
     "gateway/platforms/slack.py",
@@ -17,9 +18,13 @@
     "tests/hermes_cli/test_nous_subscription.py",
     "tests/test_evidence_store.py",
     "tests/test_hermes_state.py",
+    "tests/test_streaming.py",
     "tests/tools/test_delegate.py",
     "tools/approval.py",
-    "tools/browser_providers/browser_use.py"
+    "tools/browser_providers/browser_use.py",
+    "tools/file_operations.py",
+    "tools/patch_parser.py",
+    "tools/skills_tool.py"
   ],
   "completed_types": [],
   "stats": {
@@ -27,13 +32,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/abf1e98f6253f6984479fe03d1098173a9b065a7.nq.gz",
     "call_sites": 91351,
     "import_statements": 7659,
-    "call_targets_resolved": 2567,
+    "call_targets_resolved": 4345,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 5102,
+    "errors": 7650,
     "extends_clauses": 130,
     "implements_clauses": 0,
     "import_modules_denormalized": 11851,
@@ -41,5 +46,5 @@
     "extends_class_denormalized": 128,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14421
+  "elapsed_seconds": 14409
 }
