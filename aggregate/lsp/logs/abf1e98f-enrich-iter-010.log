@@ -1,0 +1,38 @@
+[2026-04-19T03:27:49Z] === ENRICH ITERATION 10 START | repo=NousResearch/hermes-agent sha=abf1e98f ===
+[2026-04-19T03:27:49Z] [iter=10] PHASE START: enrich repo=NousResearch/hermes-agent sha=abf1e98f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/abf1e98f-enrich-iter-010.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/abf1e98f6253f6984479fe03d1098173a9b065a7.nq.gz
+[2026-04-19T03:28:30Z] [iter=10] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-04-19T03:30:59Z] [iter=10] AST store loaded triples=13382341 load_secs=144 mem_mb=1088 MB
+[2026-04-19T03:30:59Z] [iter=10] Step 2: Finding LSP targets mem_mb=1088 MB
+[2026-04-19T03:31:37Z] [iter=10] LSP targets found call_sites=91351 imports=7659 extends=130 implements=0 secs=39
+[2026-04-19T03:31:47Z] [iter=10] Loaded checkpoint partial graph triples=233542
+[2026-04-19T03:32:23Z] [iter=10] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1088 MB
+[2026-04-19T03:33:43Z] [iter=10] Position index built positions=928765 nodes_with_types=1224647 secs=80 mem_mb=2526 MB
+[2026-04-19T03:33:43Z] [iter=10] Step 3: Starting LSP resolution mem_mb=2526 MB already_completed_types=[] already_completed_files=107
+[2026-04-19T03:33:43Z] [iter=10] Resolving target type target_type=call_site count=91351
+[2026-04-19T03:33:45Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=0 resolved=0 errors=0 current=tests/gateway/test_discord_free_response.py
+[2026-04-19T03:41:16Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=1 resolved=10 errors=103 current=tests/test_agent_loop_tool_calling.py
+[2026-04-19T03:44:15Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=2 resolved=53 errors=144 current=skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py
+[2026-04-19T03:45:43Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=17.9 files_done=3 resolved=80 errors=164 current=trajectory_compressor.py
+[2026-04-19T03:59:04Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=31.3 files_done=4 resolved=315 errors=335 current=tests/hermes_cli/test_gateway.py
+[2026-04-19T04:04:22Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=36.6 files_done=5 resolved=323 errors=408 current=tools/environments/singularity.py
+[2026-04-19T04:09:48Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=42.0 files_done=6 resolved=367 errors=483 current=tests/tools/test_mcp_dynamic_discovery.py
+[2026-04-19T04:12:30Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=7 resolved=382 errors=520 current=tests/test_860_dedup.py
+[2026-04-19T04:16:12Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=48.4 files_done=8 resolved=421 errors=571 current=hermes_cli/models.py
+[2026-04-19T04:28:51Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=61.0 files_done=9 resolved=535 errors=745 current=tests/cron/test_jobs.py
+[2026-04-19T04:39:09Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=71.3 files_done=10 resolved=550 errors=887 current=tests/tools/test_voice_mode.py
+[2026-04-19T04:57:05Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=89.3 files_done=11 resolved=654 errors=1134 current=tests/gateway/test_slack.py
+[2026-04-19T05:05:18Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=97.5 files_done=12 resolved=756 errors=1247 current=tests/tools/test_terminal_requirements.py
+[2026-04-19T05:10:35Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=102.8 files_done=13 resolved=779 errors=1320 current=hermes_cli/gateway.py
+[2026-04-19T05:46:52Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=139.1 files_done=14 resolved=1152 errors=1819 current=hermes_cli/webhook.py
+[2026-04-19T05:50:57Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=143.1 files_done=15 resolved=1207 errors=1875 current=tests/test_context_pressure.py
+[2026-04-19T05:53:17Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=145.5 files_done=16 resolved=1223 errors=1907 current=tests/agent/test_prompt_builder.py
+[2026-04-19T06:08:30Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=160.7 files_done=17 resolved=1379 errors=2115 current=skills/mlops/training/grpo-rl-training/templates/basic_grpo_training.py
+[2026-04-19T06:10:32Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=162.7 files_done=18 resolved=1390 errors=2131 current=scripts/sample_and_compress.py
+[2026-04-19T06:13:18Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=165.5 files_done=19 resolved=1478 errors=2163 current=tests/tools/test_skills_sync.py
+[2026-04-19T06:22:21Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=174.5 files_done=20 resolved=1550 errors=2285 current=gateway/platforms/telegram.py
+[2026-04-19T06:53:02Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=205.2 files_done=21 resolved=1822 errors=2707 current=tests/test_cli_status_bar.py
+[2026-04-19T06:56:44Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=208.9 files_done=22 resolved=1845 errors=2756 current=tests/gateway/test_feishu.py
+[2026-04-19T07:27:50Z] [iter=10] CHECKPOINT TRIGGERED elapsed_min=240.0 files_completed=129 new_files_this_iter=22 mem_mb=2585 MB
+[2026-04-19T07:27:50Z] [iter=10] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/abf1e98f6253f6984479fe03d1098173a9b065a7.nq.gz triples=263663
+[2026-04-19T07:27:56Z] [iter=10] Checkpoint written, exiting with code 7
+[2026-04-19T07:27:56Z] [iter=10] PHASE END: enrich (checkpointed) elapsed_s=14401 elapsed_min=240.0 files_completed=129
