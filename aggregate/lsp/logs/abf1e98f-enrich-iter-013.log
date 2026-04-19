@@ -1,0 +1,43 @@
+[2026-04-19T15:48:55Z] === ENRICH ITERATION 13 START | repo=NousResearch/hermes-agent sha=abf1e98f ===
+[2026-04-19T15:48:55Z] [iter=13] PHASE START: enrich repo=NousResearch/hermes-agent sha=abf1e98f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/abf1e98f-enrich-iter-013.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/abf1e98f6253f6984479fe03d1098173a9b065a7.nq.gz
+[2026-04-19T15:49:40Z] [iter=13] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-04-19T15:52:08Z] [iter=13] AST store loaded triples=13382341 load_secs=143 mem_mb=1079 MB
+[2026-04-19T15:52:08Z] [iter=13] Step 2: Finding LSP targets mem_mb=1079 MB
+[2026-04-19T15:52:48Z] [iter=13] LSP targets found call_sites=91351 imports=7659 extends=130 implements=0 secs=40
+[2026-04-19T15:53:01Z] [iter=13] Loaded checkpoint partial graph triples=298628
+[2026-04-19T15:53:38Z] [iter=13] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1100 MB
+[2026-04-19T15:55:13Z] [iter=13] Position index built positions=928765 nodes_with_types=1224647 secs=96 mem_mb=2729 MB
+[2026-04-19T15:55:13Z] [iter=13] Step 3: Starting LSP resolution mem_mb=2729 MB already_completed_types=[] already_completed_files=147
+[2026-04-19T15:55:13Z] [iter=13] Resolving target type target_type=call_site count=91351
+[2026-04-19T15:55:15Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=0 resolved=0 errors=0 current=gateway/platforms/discord.py
+[2026-04-19T16:36:15Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=47.3 files_done=1 resolved=75 errors=452 current=tools/process_registry.py
+[2026-04-19T16:47:52Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=58.9 files_done=2 resolved=146 errors=581 current=tests/tools/test_search_hidden_dirs.py
+[2026-04-19T16:49:40Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=60.8 files_done=3 resolved=162 errors=601 current=tests/tools/test_session_search.py
+[2026-04-19T16:52:12Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=63.3 files_done=4 resolved=182 errors=629 current=tests/test_model_metadata_local_ctx.py
+[2026-04-19T16:57:47Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=68.9 files_done=5 resolved=264 errors=691 current=skills/productivity/google-workspace/scripts/google_api.py
+[2026-04-19T17:20:41Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=91.8 files_done=6 resolved=320 errors=945 current=hermes_cli/status.py
+[2026-04-19T17:29:11Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=100.3 files_done=7 resolved=430 errors=1039 current=acp_adapter/server.py
+[2026-04-19T17:39:21Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=110.4 files_done=8 resolved=472 errors=1152 current=hermes_cli/pairing.py
+[2026-04-19T17:41:04Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=112.1 files_done=9 resolved=497 errors=1171 current=tests/gateway/test_whatsapp_group_gating.py
+[2026-04-19T17:45:12Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=116.3 files_done=10 resolved=504 errors=1217 current=tests/gateway/test_webhook_adapter.py
+[2026-04-19T17:54:01Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=125.1 files_done=11 resolved=557 errors=1315 current=tools/delegate_tool.py
+[2026-04-19T18:02:43Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=133.8 files_done=12 resolved=651 errors=1411 current=tests/tools/test_browser_ssrf_local.py
+[2026-04-19T18:08:12Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=139.3 files_done=13 resolved=660 errors=1472 current=tests/hermes_cli/test_update_autostash.py
+[2026-04-19T18:19:17Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=150.4 files_done=14 resolved=756 errors=1595 current=agent/smart_model_routing.py
+[2026-04-19T18:25:03Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=156.1 files_done=15 resolved=777 errors=1659 current=tests/agent/test_models_dev.py
+[2026-04-19T18:26:46Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=157.8 files_done=16 resolved=797 errors=1678 current=tests/gateway/test_flush_memory_stale_guard.py
+[2026-04-19T18:30:27Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=161.5 files_done=17 resolved=832 errors=1719 current=tests/test_anthropic_adapter.py
+[2026-04-19T18:51:08Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=182.2 files_done=18 resolved=929 errors=1949 current=hermes_cli/mcp_config.py
+[2026-04-19T19:05:15Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=196.3 files_done=19 resolved=1044 errors=2106 current=tests/test_auxiliary_config_bridge.py
+[2026-04-19T19:07:30Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=198.6 files_done=20 resolved=1088 errors=2131 current=tests/gateway/test_discord_slash_commands.py
+[2026-04-19T19:13:38Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=204.7 files_done=21 resolved=1197 errors=2199 current=tests/integration/test_web_tools.py
+[2026-04-19T19:22:56Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=214.0 files_done=22 resolved=1311 errors=2302 current=tests/test_context_references.py
+[2026-04-19T19:25:50Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=216.9 files_done=23 resolved=1329 errors=2334 current=skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py
+[2026-04-19T19:29:33Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=220.6 files_done=24 resolved=1339 errors=2375 current=tests/test_auth_commands.py
+[2026-04-19T19:35:10Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=226.2 files_done=25 resolved=1372 errors=2437 current=tests/hermes_cli/test_status_model_provider.py
+[2026-04-19T19:39:03Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=230.1 files_done=26 resolved=1377 errors=2480 current=tools/checkpoint_manager.py
+[2026-04-19T19:45:44Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=236.8 files_done=27 resolved=1443 errors=2553 current=tests/gateway/test_hooks.py
+[2026-04-19T19:49:25Z] [iter=13] CHECKPOINT TRIGGERED elapsed_min=240.5 files_completed=174 new_files_this_iter=27 mem_mb=2794 MB
+[2026-04-19T19:49:25Z] [iter=13] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/abf1e98f6253f6984479fe03d1098173a9b065a7.nq.gz triples=319095
+[2026-04-19T19:49:31Z] [iter=13] Checkpoint written, exiting with code 7
+[2026-04-19T19:49:31Z] [iter=13] PHASE END: enrich (checkpointed) elapsed_s=14430 elapsed_min=240.5 files_completed=174
