@@ -1,0 +1,25 @@
+{
+  "commit_sha": "345cd2b057a452236de401d3534b8502a7465e8d",
+  "completed_files": [],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/NousResearch/hermes-agent/lsp/345cd2b057a452236de401d3534b8502a7465e8d",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/345cd2b057a452236de401d3534b8502a7465e8d.nq.gz",
+    "call_sites": 810773,
+    "import_statements": 10927,
+    "call_targets_resolved": 92,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 219,
+    "extends_clauses": 393,
+    "implements_clauses": 2,
+    "import_modules_denormalized": 15274,
+    "import_symbols_denormalized": 77546,
+    "extends_class_denormalized": 338,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14413
+}
