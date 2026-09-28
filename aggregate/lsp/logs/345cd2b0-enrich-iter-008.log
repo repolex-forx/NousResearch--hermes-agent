@@ -1,0 +1,16 @@
+[2026-09-28T19:09:19Z] === ENRICH ITERATION 8 START | repo=NousResearch/hermes-agent sha=345cd2b0 ===
+[2026-09-28T19:09:19Z] [iter=8] PHASE START: enrich repo=NousResearch/hermes-agent sha=345cd2b0 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/345cd2b0-enrich-iter-008.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/345cd2b057a452236de401d3534b8502a7465e8d.nq.gz
+[2026-09-28T19:10:58Z] [iter=8] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-09-28T19:50:03Z] [iter=8] AST store loaded triples=112027367 load_secs=2309 mem_mb=1342 MB
+[2026-09-28T19:50:03Z] [iter=8] Step 2: Finding LSP targets mem_mb=1342 MB
+[2026-09-28T19:53:11Z] [iter=8] LSP targets found call_sites=810773 imports=10927 extends=393 implements=2 secs=188
+[2026-09-28T19:53:17Z] [iter=8] Loaded checkpoint partial graph triples=157727
+[2026-09-28T19:55:31Z] [iter=8] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1716 MB
+[2026-09-28T20:07:32Z] [iter=8] Position index built positions=7675346 nodes_with_types=9852440 secs=721 mem_mb=13266 MB
+[2026-09-28T20:07:32Z] [iter=8] Step 3: Starting LSP resolution mem_mb=13266 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T20:07:32Z] [iter=8] Resolving target type target_type=call_site count=810773
+[2026-09-28T20:07:46Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=58.5 files_done=0 resolved=0 errors=0 current=apps/desktop/electron/main.ts
+[2026-09-28T23:10:07Z] [iter=8] CHECKPOINT TRIGGERED elapsed_min=240.8 files_completed=0 new_files_this_iter=0 mem_mb=13266 MB
+[2026-09-28T23:10:07Z] [iter=8] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/345cd2b057a452236de401d3534b8502a7465e8d.nq.gz triples=158190
+[2026-09-28T23:10:15Z] [iter=8] Checkpoint written, exiting with code 7
+[2026-09-28T23:10:15Z] [iter=8] PHASE END: enrich (checkpointed) elapsed_s=14448 elapsed_min=240.8 files_completed=0
